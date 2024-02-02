@@ -1,3 +1,3 @@
 # fcs-html-template
-### Name:
-### Period:
+### Name: Eleanor Aranda
+### Period: 9
