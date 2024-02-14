@@ -1,16 +1,24 @@
+body{
+background-color: purple;
+}
+
 p{
 color: purple;
 background-color: lightblue;
 font-size: 20px;}
+
 h1{
 text-align: center;
 border: 4px solid green;}
+
 h2{
 font-weight: bold;
-font-size: 17px;
+font-size: 5px;
 font-family: "serif";}
+
 img{
 border: 5px dotted purple;}
-Li{
+
+li{
 color: indigo;
 font-family: "Times";}
