@@ -10,3 +10,8 @@ ul{
   display: flex;
   list-style: none;
 }
+
+li{
+  text-align: center;
+  padding: 5 px;
+}
