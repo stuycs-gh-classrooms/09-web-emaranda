@@ -11,9 +11,13 @@ ul{
   list-style: none;
 }
 
-li{
+.menu_items{
   text-align: center;
   padding: 5 px;
   background-color: lightgreen;
   margin: 5 px;
+}
+.wrapper{
+  display: flex;
+  list-style: none;
 }
