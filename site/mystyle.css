@@ -4,5 +4,7 @@ body{
 
 .box{
   background-color: white;
-  border: 5px solid;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
 }
