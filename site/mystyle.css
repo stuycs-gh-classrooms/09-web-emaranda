@@ -5,3 +5,8 @@ body{
 .image{
   float: left;
 }
+
+ul{
+  display: flex;
+  list-style: none;
+}
