@@ -1,23 +1,8 @@
 body{
   background-color: lavender;
-}
-
-.image{
-  float: left;
-}
-
-ul{
-  display: flex;
-  list-style: none;
-}
-
-.menu{
   text-align: center;
-  padding: 5 px;
-  background-color: lightgreen;
-  margin: 5 px;
 }
-.wrapper{
-  display: flex;
-  list-style: none;
+
+h1, p, h2 {
+  background-color: white;
 }
