@@ -4,7 +4,7 @@ body{
 
 .box{
   background-color: white;
-  padding: 5px;
+  padding: 25px;
   margin: 50px;
   border-radius: 20px;
 }
@@ -14,7 +14,7 @@ h1{
 }
 
 img{
-  padding: 30px;
+  padding: 10px;
   float: left;
   margin-right: 30px;
 }
