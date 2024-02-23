@@ -29,6 +29,6 @@ a{
   text-decoration: none;
 }
 
-other, current{
+.other, .current{
   display: inline;
 }
