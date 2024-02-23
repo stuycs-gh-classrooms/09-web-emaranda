@@ -28,3 +28,7 @@ a:hover{
 a{
   text-decoration: none;
 }
+
+other, current{
+  display: inline;
+}
