@@ -31,4 +31,6 @@ a{
 
 .other, .current{
   display: inline;
+  background-color: white;
+  border-radius: 5px;
 }
