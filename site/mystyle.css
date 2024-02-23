@@ -29,9 +29,13 @@ a{
   text-decoration: none;
 }
 
-nav{
+.other, .current{
   display: inline;
   background-color: white;
   border-radius: 5px 5px 0px 0px;
   font-size: 20px;
+}
+
+nav{
+  text-align: center;
 }
