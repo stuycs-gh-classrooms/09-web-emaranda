@@ -13,14 +13,6 @@ h1{
   text-align: center;
 }
 
-.other{
-  color: yellow;
-}
-
-.current{
-  color: blue;
-}
-
 a:visited{
   color: black;
 }
@@ -29,9 +21,8 @@ a:hover{
   color: blue
 }
 
-li.current{
+a{
   text-decoration: none;
-  color: green;
 }
 
 .other, .current{
