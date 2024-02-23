@@ -25,7 +25,7 @@ a:hover{
   color: blue
 }
 
-a{
+a.other, a.current{
   text-decoration: none;
 }
 
