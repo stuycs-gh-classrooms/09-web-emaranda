@@ -16,3 +16,11 @@ h1{
 nav{
   background-color: green;
 }
+
+.other{
+  color: yellow;
+}
+
+.current{
+  color: blue;
+}
