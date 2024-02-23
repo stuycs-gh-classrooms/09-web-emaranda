@@ -21,16 +21,16 @@ h1{
   color: blue;
 }
 
+a:visited{
+  color: green;
+}
+
 a:hover{
   color: blue
 }
 
 a{
   text-decoration: none;
-}
-
-a:visited{
-  color: green;
 }
 
 .other, .current{
