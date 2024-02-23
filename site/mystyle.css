@@ -29,7 +29,7 @@ a:hover{
   color: blue
 }
 
-a.current{
+li.current{
   text-decoration: none;
   color: green;
 }
