@@ -28,9 +28,9 @@ a{
 .other, .current{
   display: inline;
   font-size: 20px;
+  background-color: red;
 }
 
 .menu{
   text-align: center;
-  background-color: red;
 }
