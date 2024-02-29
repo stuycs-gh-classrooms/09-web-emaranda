@@ -80,4 +80,5 @@ overflow: hidden;
 
 .authors{
   vertical-align: center;
+  display: inline;
 }
