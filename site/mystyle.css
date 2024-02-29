@@ -74,6 +74,7 @@ overflow: hidden;
 
 .alphona{
   display: block;
-  border: black, solid, 2px;
+  border: 2px solid black;
+  width: 50px
 }
 
