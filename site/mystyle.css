@@ -73,7 +73,7 @@ overflow: hidden;
 }
 
 .authors{
-  box-sizing: border-box;
+  width: 50%;
   border: 1px solid black;
   margin: auto;
 }
