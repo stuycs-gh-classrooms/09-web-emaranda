@@ -72,4 +72,8 @@ background-color: white;
 overflow: hidden;
 }
 
+.alphona{
+  display: block;
+  border: black, solid, 2px;
+}
 
