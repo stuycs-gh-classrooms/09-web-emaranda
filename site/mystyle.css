@@ -80,4 +80,5 @@ overflow: hidden;
 .logo{
   margin: auto;
   width: 200px;
+  padding-bottom: -50px;
 }
