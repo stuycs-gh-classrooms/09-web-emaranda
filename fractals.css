@@ -21,6 +21,8 @@ p, code{
   color: black;
   font-family: system-ui;
   font-weight: bold;
+  length: auto;
+  width: auto;
 }
 
 .box{
