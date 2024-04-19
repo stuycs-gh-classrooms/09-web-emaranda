@@ -1,17 +1,14 @@
 body{
   background-color: #FEF5F6;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-p, code{
-  font-size: 15px;
-}
-
-html {
   height: 100%;
   margin: auto;
   width: auto;
   padding: 10px;
+}
+
+p, code{
+  font-size: 15px;
 }
 
 .top{
