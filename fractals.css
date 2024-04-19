@@ -1,6 +1,6 @@
 body{
   background-color: #FFDE5B;
-font-family: monaco,Consolas,Lucida Console,monospace;
+font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 p, code{
@@ -10,7 +10,9 @@ p, code{
 html {
   height: 100%;
   margin: auto;
-  width: 960px;
+  width: auto;
+  padding: 10px;
+  text-align: left;
 }
 
 .top{
@@ -20,5 +22,4 @@ html {
 
 .box{
   border-top: 3px solid black;
-  text-align: left;
 }
