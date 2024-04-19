@@ -30,31 +30,31 @@
     <img src="images/sierpinski.png" alt="sierpinski triangle" height="100 px">
     <img src="images/hexagon_triangle.png" alt="hexagon triangle" height="100 px">
     <pre><code>
-def hextriangle(t, size):
-    t.rt(60)
-    t.fd(size)
-    t.rt(60)
-    t.fd(size)
-    t.rt(60)
-    t.fd(size)
-    t.rt(60)
-def hexagon_sierpinski(t, depth, size):
-    if depth == 1:
-        hextriangle(t, size)
-    else:
-        t.pencolor((random.randrange(1, 255), random.randrange(1, 255), random.randrange(1, 255)))
-        t.width(1)
-        hexagon_sierpinski(t, depth-1, size/2)
-        t.fd(size/2)
-        hexagon_sierpinski(t, depth-1, size/2)
-        t.bk(size/2)
-        t.lt(60)
-        t.fd(size/2)
+    def hextriangle(t, size):
         t.rt(60)
-        hexagon_sierpinski(t, depth-1, size/2)
-        t.rt(120)
-        t.fd(size/2)
-        t.lt(120)
+        t.fd(size)
+        t.rt(60)
+        t.fd(size)
+        t.rt(60)
+        t.fd(size)
+        t.rt(60)
+    def hexagon_sierpinski(t, depth, size):
+        if depth == 1:
+            hextriangle(t, size)
+        else:
+            t.pencolor((random.randrange(1, 255), random.randrange(1, 255), random.randrange(1, 255)))
+            t.width(1)
+            hexagon_sierpinski(t, depth-1, size/2)
+            t.fd(size/2)
+            hexagon_sierpinski(t, depth-1, size/2)
+            t.bk(size/2)
+            t.lt(60)
+            t.fd(size/2)
+            t.rt(60)
+            hexagon_sierpinski(t, depth-1, size/2)
+            t.rt(120)
+            t.fd(size/2)
+            t.lt(120)
     </code></pre>
     
     <img src="images/tree.png" alt="tree" height="100 px"></div>
