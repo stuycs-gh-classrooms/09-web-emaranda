@@ -10,7 +10,7 @@
 
   <body>
     <div class = "top"><h1>Eleanor's Fantastic Fractals</h1></top>
-    <h1>Koch Curves</h1>
+    <div class = "box"><h1>Koch Curves</h1>
     <h2>Basic Koch Curve</h2>
     <p>koch_curve(t, 4, 10)</p>
     <img src="images/koch_curve.png" alt="koch curve" height="200 px">
@@ -34,8 +34,9 @@
           koch_snowflake(t, depth - 1, size)
           t.rt(120)
     </code></pre>
+    </box>
 
-    <h1>Sierpinski Triangle</h1>
+    <div class = "box"><h1>Sierpinski Triangle</h1>
     <h2>Basic Sierpinski Triangle</h2>
     <p>sierpinski(t, 3, 100)</p>
     <img src="images/sierpinski.png" alt="sierpinski triangle" height="200 px">
@@ -70,8 +71,9 @@
             t.fd(size/2)
             t.lt(120)
     </code></pre>
-
-    <h1>Fractal Trees</h1>
+    </box>
+      
+    <div class = "box"><h1>Fractal Trees</h1>
     <h2>Basic Fractal Tree</h2>
     <p>tree(t, 4, 50, 20)</p>
     <img src="images/tree.png" alt="tree" height="200 px"></div>
@@ -100,6 +102,7 @@
         t.rt(angle)
         t.bk(size/(2 * depth))
     </code></pre>
+    </box>
     
   </body>
 
