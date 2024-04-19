@@ -9,11 +9,37 @@
 
   <body>
     <img src="images/koch_curve.png" alt="koch curve" height="100 px">
+    
     <img src="images/koch_snowflake.png" alt="koch snowflake" height="100 px">
+    <pre><code>
+    def koch_snowflake(t, depth, size):
+      if (depth == 1):
+          t.fd(size)
+      else:
+          t.width(random.randrange(2, 5))
+          koch_snowflake(t, depth-1, size)
+          t.lt(60)
+          koch_snowflake(t, depth-1, size)
+          t.rt(120)
+          koch_snowflake(t, depth-1, size)
+          t.lt(60)
+          koch_snowflake(t, depth - 1, size)
+          t.rt(120)
+    </code></pre>
+    
     <img src="images/sierpinski.png" alt="sierpinski triangle" height="100 px">
     <img src="images/hexagon_triangle.png" alt="hexagon triangle" height="100 px">
+    <pre><code>
+    def foo(x):
+        return x**7
+    </code></pre>
+    
     <img src="images/tree.png" alt="tree" height="100 px"></div>
     <img src="images/sharp_bush.png" alt="bush" height="100 px"></div>
+    <pre><code>
+    def foo(x):
+        return x**7
+    </code></pre>
     
   </body>
 
