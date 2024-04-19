@@ -13,7 +13,6 @@ p, code{
 
 .top{
   font-size: 45px;
-  text-align: center;
   background-color: white;
   border-radius: 25px;
   padding: 20px;
@@ -22,6 +21,7 @@ p, code{
   font-family: system-ui;
   font-weight: bold;
   display: inline-flex;
+  text-align: center;
 }
 
 .box{
