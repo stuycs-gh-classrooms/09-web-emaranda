@@ -13,15 +13,9 @@ p, code{
 
 .top{
   font-size: 60px;
-  border-radius: 25px;
   font-family: system-ui;
   font-weight: bold;
-  display: inline-flex;
   text-align: center;
-  display: inline-flex;
-  padding: 10px;
-  margin: auto;
-  background-color: white;
 }
 
 .box{
