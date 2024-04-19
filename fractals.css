@@ -20,4 +20,5 @@ html {
 
 .box{
   border-top: 3px solid black;
+  text-align: left;
 }
