@@ -11,12 +11,12 @@
     <h1>Koch Curves</h1>
     <h2>Basic Koch Curve</h2>
     <p>koch_curve(t, 4, 10)</p>
-    <img src="images/koch_curve.png" alt="koch curve" height="100 px">
+    <img src="images/koch_curve.png" alt="koch curve" height="200 px">
 
     <h2>Modified Koch Curve</h2>
     <p>This modified Koch Curve is different from the basic koch curve because it has one more recursive step and t.rt(120). If the turtle has a depth of at least 5, it forms a closed geometric shape (similar to the shape of a snowflake). The width of each line also changes and it is determined from a random range of width 2 to 5. </p>
     <p>koch_snowflake(t, 5, 10)</p>
-    <img src="images/koch_snowflake.png" alt="koch snowflake" height="100 px">
+    <img src="images/koch_snowflake.png" alt="koch snowflake" height="200 px">
     <pre><code>
     def koch_snowflake(t, depth, size):
       if (depth == 1):
@@ -36,11 +36,11 @@
     <h1>Sierpinski Triangle</h1>
     <h2>Basic Sierpinski Triangle</h2>
     <p>sierpinski(t, 3, 100)</p>
-    <img src="images/sierpinski.png" alt="sierpinski triangle" height="100 px">
+    <img src="images/sierpinski.png" alt="sierpinski triangle" height="200 px">
     <h2>Modified Sierpinski Triangle</h2>
     <p>This modified sierpinski triangle draws hexagons in addition to triangles. This modified (if depth == 1) code give the triangle a different, more geometric shape. Each hexagon that the turtle draws is also a different random color. </p>
     <p>hexagon_sierpinski(t, 5, 100)</p>
-    <img src="images/hexagon_triangle.png" alt="hexagon triangle" height="100 px">
+    <img src="images/hexagon_triangle.png" alt="hexagon triangle" height="200 px">
     <pre><code>
     def hextriangle(t, size):
         t.rt(60)
@@ -68,9 +68,15 @@
             t.fd(size/2)
             t.lt(120)
     </code></pre>
-    
-    <img src="images/tree.png" alt="tree" height="100 px"></div>
-    <img src="images/sharp_bush.png" alt="bush" height="100 px"></div>
+
+    <h1>Fractal Trees</h1>
+    <h2>Basic Fractal Tree</h2>
+    <p>tree(t, 4, 50, 20)</p>
+    <img src="images/tree.png" alt="tree" height="200 px"></div>
+    <h2>Modified Fractal Tree</h2>
+    <p>This modified fractal tree has different colors: red on the ends of the outermost branch, green on the rest of the outmost branch, and brown for the rest of the bush. The bush also has increasing larger sizes by multiplying the size by the depth times 2 (the ends of the branches are much longer than the base of the branches). The smaller the depth, the more the length of the branch increases.</p>
+    <p>sharp_bush(t, 5, 50, 20)</p>
+    <img src="images/sharp_bush.png" alt="bush" height="200 px"></div>
     <pre><code>
   def sharp_bush(t, depth, size, angle):
     if depth == 0:
