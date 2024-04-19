@@ -3,15 +3,8 @@ body{
 font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
-p{
-font-size: 10px;
-}
-
-body{
-  background-color: white;
-  padding: 25px;
-  margin: 50px;
-  border-radius: 20px;
-overflow: hidden;
-  margin-top: 5px;
+html {
+  height: 100%;
+  margin: auto;
+  width: 960px;
 }
