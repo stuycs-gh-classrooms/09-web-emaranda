@@ -3,7 +3,7 @@ body{
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-p{
+p, code{
   font-size: 15px;
 }
 
@@ -24,7 +24,7 @@ html {
   text-align: left;
 }
 
-h1, code{
+h1{
   font-size: 25px;
 }
 
