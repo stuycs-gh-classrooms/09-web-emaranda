@@ -12,16 +12,16 @@ p, code{
 }
 
 .top{
-  font-size: 45px;
-  background-color: white;
+  font-size: 60px;
   border-radius: 25px;
-  padding: 20px;
-  margin: 20px;
-  color: black;
   font-family: system-ui;
   font-weight: bold;
   display: inline-flex;
   text-align: center;
+  display: inline-flex;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
 }
 
 .box{
