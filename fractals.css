@@ -1,5 +1,5 @@
 body{
-  background-color: #FEF5F6;
+  background-color: #FBD5D9;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   height: 100%;
   margin: auto;
@@ -18,7 +18,7 @@ p, code{
 
 .box{
   background-color: white;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: left;
   padding: 20px;
   margin: 20px;
@@ -26,6 +26,7 @@ p, code{
 
 h1{
   font-size: 25px;
+  font-color: navy
 }
 
 h2{
