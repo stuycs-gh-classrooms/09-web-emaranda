@@ -11,12 +11,6 @@ p, code{
   font-size: 15px;
 }
 
-.top{
-  font-size: 60px;
-  font-family: system-ui;
-  font-weight: bold;
-  text-align: center;
-}
 
 .box{
   background-color: white;
@@ -33,6 +27,18 @@ h1{
 
 h2{
   font-size: 20px;
+}
+
+
+.top{
+  font-size: 60px;
+  font-family: system-ui;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
 }
 
 
