@@ -19,6 +19,9 @@ p, code{
   text-align: left;
   padding: 20px;
   margin: 20px;
+  color: black;
+  font-family: system-ui;
+  font-weight: bold;
 }
 
 .box{
