@@ -18,7 +18,7 @@ p, code{
 
 .box{
   background-color: white;
-  border-radius: 15px;
+  border-radius: 25px;
   text-align: left;
   padding: 20px;
   margin: 20px;
@@ -26,7 +26,7 @@ p, code{
 
 h1{
   font-size: 25px;
-  font-color: navy
+  font-color: #104580;
 }
 
 h2{
