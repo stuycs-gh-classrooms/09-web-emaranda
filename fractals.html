@@ -30,15 +30,55 @@
     <img src="images/sierpinski.png" alt="sierpinski triangle" height="100 px">
     <img src="images/hexagon_triangle.png" alt="hexagon triangle" height="100 px">
     <pre><code>
-    def foo(x):
-        return x**7
+def hextriangle(t, size):
+    t.rt(60)
+    t.fd(size)
+    t.rt(60)
+    t.fd(size)
+    t.rt(60)
+    t.fd(size)
+    t.rt(60)
+def hexagon_sierpinski(t, depth, size):
+    if depth == 1:
+        hextriangle(t, size)
+    else:
+        t.pencolor((random.randrange(1, 255), random.randrange(1, 255), random.randrange(1, 255)))
+        t.width(1)
+        hexagon_sierpinski(t, depth-1, size/2)
+        t.fd(size/2)
+        hexagon_sierpinski(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.rt(60)
+        hexagon_sierpinski(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)
     </code></pre>
     
     <img src="images/tree.png" alt="tree" height="100 px"></div>
     <img src="images/sharp_bush.png" alt="bush" height="100 px"></div>
     <pre><code>
-    def foo(x):
-        return x**7
+  def sharp_bush(t, depth, size, angle):
+    if depth == 0:
+        t.pencolor("green")
+        t.fd(size)
+        t.pencolor("red")
+        t.fd(size/10)
+        t.pu()
+        t.bk(size + (size/10))
+        t.pencolor("brown")
+        t.pd()
+    else:
+        t.width(3)
+        t.fd(size/(2 * depth ))
+        t.rt(angle)
+        sharp_bush(t, depth-1, size, angle)
+        t.lt(2 * angle)
+        sharp_bush(t, depth-1, size, angle)
+        t.rt(angle)
+        t.bk(size/(2 * depth))
     </code></pre>
     
   </body>
