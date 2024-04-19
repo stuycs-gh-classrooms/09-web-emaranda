@@ -12,3 +12,12 @@ html {
   margin: auto;
   width: 960px;
 }
+
+top{
+  font-size: 35px;
+  text-align: center;
+}
+
+box{
+  border-top: 3px solid black;
+}
