@@ -13,11 +13,11 @@ html {
   width: 960px;
 }
 
-top{
+.top{
   font-size: 35px;
   text-align: center;
 }
 
-box{
+.box{
   border-top: 3px solid black;
 }
