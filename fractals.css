@@ -1,9 +1,9 @@
 body{
   background-color: #FEF5F6;
-font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-p, code{
+p{
   font-size: 15px;
 }
 
@@ -15,7 +15,7 @@ html {
 }
 
 .top{
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
 }
 
